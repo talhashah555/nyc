@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+ul li a{
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: white;
+}
+
+.container-fluid{
+    background-color: rgb(55, 55, 216);
+    color: azure;
+}
+
+/* a:hover{
+    background-color: grey;
+background-color: slategray;
+border-radius: 10px; */
+
+
+/* #abcd:hover{
+    background-color: black;
+    transition: 0.4s;
+    border-color: black;
+    border-radius: 10px;
+  } */
+.navbar{
+  margin: 0;
+  padding: 0;
+}
+.nav-link{
+  color: white;
+}
+
+.nav-link dropdown-toggle{
+   color: white;
+}
+.navbar-brand{
+  height: 50px; 
+  width: 130px; 
+  /* border-radius: 5rem; */
+}
+.navbar-nav{
+  margin: auto;
+}
+.anchor {
+    display: block;
+    padding-left: 2%;
+}
+.anchor a{
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+}
+.anchor a:hover{
+  color: black;
+}
+
+
+
+  
+  /* Default styles for the footer */
+footer {
+  background-color:  rgb(55, 55, 216);
+  height: 7pc;
+  width: 100% !important;
+}
+
+footer p {
+  text-align: center;
+  padding-top: 2pc;
+}
+
+footer .anchor {
+  display: flex;
+  justify-content:center;
+  align-items: center;
+
+}
+
+footer a {
+  margin: 0 6px;
+}
+
+/* Media query for screens smaller than 600px */
+@media only screen and (max-width: 600px) {
+  footer {
+      height: auto; /* Adjust height for smaller screens */
+  }
+
+  footer p {
+      padding-top: 1pc; /* Adjust padding for smaller screens */
+  }
+
+  footer .anchor {
+      flex-direction: column; /* Stack links vertically */
+  }
+
+  footer a {
+      margin: 5px 0; /* Adjust spacing for smaller screens */
+  }
+}
+
+/* gallery */
+
+.fade-in-image { animation: fadeIn 5s; }
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+.two {
+  text-decoration-line: none;
+}
+.box{
+  background: linear-gradient(0, white 0, lightblue 50%);
+}

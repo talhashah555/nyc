@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Abel&family=Oxygen&display=swap" rel="stylesheet">
+    <title>Ryan Sports Club</title>
+    <style>
+        /* Ensure the page stretches to the full height of the viewport */
+        html, body {
+            height: 100%;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+        }
+        /* The main content area should fill the remaining space */
+        .content {
+            flex: 1;
+        }
+        /* Footer styling */
+        footer {
+            background-color: darkcyan;
+            padding: 20px;
+            text-align: center;
+            color: white;
+        }
+        footer nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        footer nav a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body style="background-image:url(images/2.png);background-repeat: no-repeat;background-size: cover;font-family: 'Oxygen', sans-serif;">
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid p-3" style="background-color: darkcyan;">
+        <img class="navbar-brand" src="images/ryan.png" alt="">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mx-auto">
+                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="indoor.html">Indoor Games</a></li>
+                <li class="nav-item"><a class="nav-link" href="outdoor.html">Outdoor Games</a></li>
+                <li class="nav-item"><a class="nav-link" href="recreation.html">Recreation</a></li>
+                <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
+                <li class="nav-item"><a class="nav-link" href="membership.html">Membership</a></li>
+                <li class="nav-item"><a class="nav-link" href="players.html">Top Players</a></li>
+                <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+            </ul>
+        </div>
+    </div>
+  </nav>
+
+  <!-- Main Content -->
+  <div class="content">
+    <br>
+    <div class="row row-cols-1 row-cols-md-3 g-4 ms-3 me-3">
+      <div class="col-lg-3 col-md-6 col-12">
+        <div class="card h-100">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYtIfGWqSTHCIJmvE4s45x6G2RlgipJ-yk8w&s" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">GYM</h5>
+            <a href="gym.html" class="btn btn-primary">More Details</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 col-12">
+        <div class="card h-100">
+          <img src="https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDI0LTAyL3Jhd3BpeGVsX29mZmljZV8yMl9waG90b2dyYXBoX29mX2N5YmVycHVua19nYW1lX2NlbnRlcl9uZW9uX2xpZ185MzAwZTA0OC1kNjE1LTQyZTAtYTNlNi1mNGE2YTExNzQ1OTNfMS5qcGc.jpg" class="card-img-top" alt="..." height="200px">
+          <div class="card-body">
+            <h5 class="card-title">VIDEO GAMES</h5>
+            <a href="videogames.html" class="btn btn-primary">More Details</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 col-12">
+        <div class="card h-100">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHA-biJ_nC4MKUoN8oJ2pelVtzRraQHUS7lQ&s" class="card-img-top" height="200px" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">SWIMMING</h5>
+            <a href="swimming.html" class="btn btn-primary">More Details</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 col-12">
+        <div class="card h-100">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6BQdi5RuRnkvKgw316bY1KRYxr-GAwOgzDA&s" class="card-img-top" alt="..." height="200px">
+          <div class="card-body">
+            <h5 class="card-title">3D MOVIES</h5>
+            <a href="3dmovies.html" class="btn btn-primary">More Details</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2023 Ryan-Entertainment (Pvt) Ltd</p>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="indoor.html">Indoor</a>
+      <a href="outdoor.html">Outdoor</a>
+      <a href="recreation.html">Recreation</a>
+      <a href="contact.html">Contact</a>
+      <a href="membership.html">Membership</a>
+      <a href="players.html">Top Players</a>
+      <a href="gallery.html">Gallery</a>
+    </nav>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
